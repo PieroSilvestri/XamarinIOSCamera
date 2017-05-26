@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{A1712FBF-0422-4F77-B696-493D3CCA9561}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Info.plist">
+    <Files>
+      <File FileName="AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Components/xamarin.mobile-0.7.7/samples/Xamarin.Mobile.iOS-Classic.Samples/MediaPickerSample-Classic/Main.cs" Line="1" Column="1" />
+      <File FileName="Components/xamarin.mobile-0.7.7/samples/Xamarin.Mobile.iOS-Classic.Samples/ContactsSample-Classic/MainView.cs" Line="1" Column="1" />
+      <File FileName="ViewController.cs" Line="60" Column="5" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="1" Column="1" />
+      <File FileName="Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamarinIOSCamera PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.7fc2d69927224fcd1622c1c987bc92caa144aa60" />
+</Properties>

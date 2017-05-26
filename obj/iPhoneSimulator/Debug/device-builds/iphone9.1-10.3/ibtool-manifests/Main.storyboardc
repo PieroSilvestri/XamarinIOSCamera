@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ibtool.document.errors</key>
+	<dict/>
+	<key>com.apple.ibtool.document.notices</key>
+	<dict/>
+	<key>com.apple.ibtool.document.warnings</key>
+	<dict>
+		<key>9Nr-VC-3XZ</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>9Nr-VC-3XZ</string>
+				</array>
+				<key>message</key>
+				<string>Constraint referencing items turned off in current configuration. Turn off this constraint in the current configuration.</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>Chr-Ly-8GX</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>Chr-Ly-8GX</string>
+				</array>
+				<key>message</key>
+				<string>Constraint referencing items turned off in current configuration. Turn off this constraint in the current configuration.</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>KIV-3e-M6G</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>KIV-3e-M6G</string>
+				</array>
+				<key>message</key>
+				<string>Constraint referencing items turned off in current configuration. Turn off this constraint in the current configuration.</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>mfY-fz-LSq</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>mfY-fz-LSq</string>
+				</array>
+				<key>message</key>
+				<string>Constraint referencing items turned off in current configuration. Turn off this constraint in the current configuration.</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

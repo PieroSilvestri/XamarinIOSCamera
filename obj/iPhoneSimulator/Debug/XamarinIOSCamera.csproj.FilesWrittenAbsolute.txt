@@ -1,0 +1,14 @@
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/pierosilvestri/Projects/XamarinIOSCamera/bin/iPhoneSimulator/Debug/XamarinIOSCamera.pdb
+/Users/pierosilvestri/Projects/XamarinIOSCamera/bin/iPhoneSimulator/Debug/XamarinIOSCamera.exe
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/XamarinIOSCamera.exe
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/XamarinIOSCamera.pdb
+/Users/pierosilvestri/Projects/XamarinIOSCamera/bin/iPhoneSimulator/Debug/Xamarin.Mobile.dll
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/device-builds/iphone9.2-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/device-builds/iphone9.2-10.3/actool/_PartialAppManifest.items
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/device-builds/iphone9.2-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/device-builds/iphone9.2-10.3/optimized/
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/pierosilvestri/Projects/XamarinIOSCamera/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
