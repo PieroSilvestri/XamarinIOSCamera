@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Plugin.Media;
+using Plugin.Media.Abstractions;
 using UIKit;
 
 namespace XamarinIOSCamera
@@ -27,6 +28,7 @@ namespace XamarinIOSCamera
 			//mediaPicker = new MediaPicker();
 
 			TakePhotoButton.TouchUpInside += TakePhoto;
+			PickPhotoButton.TouchUpInside += PickPhoto;
 		}
 
 		public override void DidReceiveMemoryWarning()
@@ -38,36 +40,11 @@ namespace XamarinIOSCamera
 		private async void TakePhoto(object sender, EventArgs e)
 		{
 			await GetPhotoEvent();
-			/*
-			if (!mediaPicker.IsCameraAvailable)
-			{
-				alertView = UIAlertController.Create("Camera Error", "Camera is not available on this device.", UIAlertControllerStyle.Alert);
-				alertView.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
+		}
 
-				// Present Alert
-				PresentViewController(alertView, true, null);
-
-				return;
-			}
-
-			mediaPickerController = mediaPicker.GetTakePhotoUI(new StoreCameraMediaOptions
-			{
-				Name = "Photo1.jpg",
-				Directory = "MyTeoDirectory"
-			}
-															  );
-
-			PresentViewController(mediaPickerController, true, null);
-
-
-
-			mediaPickerController.GetResultAsync().ContinueWith(t =>
-						{
-							ImageBoxView.Image = UIImage.FromFile(t.Result.Path);
-							DismissViewController(true, null);
-						}, uiScheduler);
-
-			*/
+		private async void PickPhoto(object sender, EventArgs e)
+		{
+			await PickPhotoEvent();
 		}
 
 		private async Task GetPhotoEvent()
@@ -86,28 +63,63 @@ namespace XamarinIOSCamera
 				return;
 			}
 
-			var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
+			var file = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
 			{
 				Directory = "Sample",
 				Name = "test.jpg"
 			});
 
 			if (file == null)
+			{
 				return;
-
-			//await DisplayAlert("File Location", file.Path, "OK");
-			/*
-			image.Source = ImageSource.FromStream(() =>
+			}
+			else
+			{
+				if (ImageBoxView.Image != null)
 				{
-					var stream = file.GetStream();
-					file.Dispose();
-					return stream;
-				});
-*/
-			//or:
+					ImageBoxView.Image = new UIImage();
+				}
+			}
+
 			ImageBoxView.Image = UIImage.FromFile(file.Path);
 			ImageBoxView.Dispose();
 
 		}
+
+		private async Task PickPhotoEvent()
+		{
+			await CrossMedia.Current.Initialize();
+
+			if (!CrossMedia.Current.IsPickPhotoSupported)
+			{
+
+				alertView = UIAlertController.Create("Pick Photo Error", "Pick Photo is not available on this device.", UIAlertControllerStyle.Alert);
+				alertView.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
+
+				// Present Alert
+				PresentViewController(alertView, true, null);
+
+				return;
+			}
+
+			var file = await CrossMedia.Current.PickPhotoAsync(new PickMediaOptions 
+			{ });
+
+			if (file == null)
+			{
+				return;
+			}
+			else
+			{
+				if (ImageBoxView.Image != null)
+				{
+					ImageBoxView.Image = new UIImage();
+				}
+			}
+
+			ImageBoxView.Image = UIImage.FromFile(file.Path);
+			//ImageBoxView.();
+		}
+
 	}
 }

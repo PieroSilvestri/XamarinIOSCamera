@@ -19,6 +19,10 @@ namespace XamarinIOSCamera
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton PickPhotoButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton TakePhotoButton { get; set; }
 
         [Outlet]
@@ -30,6 +34,11 @@ namespace XamarinIOSCamera
             if (ImageBoxView != null) {
                 ImageBoxView.Dispose ();
                 ImageBoxView = null;
+            }
+
+            if (PickPhotoButton != null) {
+                PickPhotoButton.Dispose ();
+                PickPhotoButton = null;
             }
 
             if (TakePhotoButton != null) {

@@ -8,36 +8,6 @@
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
 	<dict>
-		<key>9Nr-VC-3XZ</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>9Nr-VC-3XZ</string>
-				</array>
-				<key>message</key>
-				<string>Constraint referencing items turned off in current configuration. Turn off this constraint in the current configuration.</string>
-				<key>type</key>
-				<string>IBUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-		<key>Chr-Ly-8GX</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>Chr-Ly-8GX</string>
-				</array>
-				<key>message</key>
-				<string>Constraint referencing items turned off in current configuration. Turn off this constraint in the current configuration.</string>
-				<key>type</key>
-				<string>IBUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
 		<key>KIV-3e-M6G</key>
 		<array>
 			<dict>
